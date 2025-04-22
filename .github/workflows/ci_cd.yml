@@ -33,7 +33,7 @@ jobs:
     # 4. Build the Docker image
     - name: Build the Docker image
       run: |
-        cd faceblurring
+        cd rosboard
         docker build . --file Dockerfile --tag digitaltwin_rosboard_image:latest
 
     - name: Launch services and wait
