@@ -1,0 +1,20 @@
+services:
+
+  rosboard:
+    build: 
+      context: ./rosboard
+    container_name: rosboard
+    command: >
+      bash -c "source /opt/ros/humble/setup.sh &&
+      ros2 run rosboard rosboard_node"
+    ports:
+      - "8888:8888" 
+
+  rosbag_player:
+    build: 
+      context: ./test
+    container_name: rosbag_player
+    volumes:
+      - ./test/:/usr/src/app/config/
+    environment:
+    - BAG_FILE_PATH=/usr/src/app/config/sample_bag.db3
