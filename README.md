@@ -1,4 +1,4 @@
-# Pilot02 Digital Twin ROsBoard
+# Pilot02 Digital Twin ROSBoard
 
 This repository contains a docker based version of rosboard. It includes some changes on top of the original ROSboard (https://github.com/dheera/rosboard) project with visual branding and improved robustness for ROS2 message handling.
 
