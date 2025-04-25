@@ -35,8 +35,6 @@ After building the Docker image, you can run the container using the following c
 docker run pilot02-digitaltwin-rosboard
 ```
 
-This will start the container and launch the Bag Player with the configuration given. Change the bag log filename if you want to play a different one.
-
 ### 3. **Build and Run the test automation:**
 
 Test automation is integrated by docker-compose file:
