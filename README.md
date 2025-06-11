@@ -45,7 +45,7 @@ docker-compose up --build
 ```
 After execution, you will be able to see at [Rosboard →](https://localhost:8888) the web based board. By default only two topics with sample data are shown.
 
-![Board Demo](./test/rosboard-test.png)
+![Board Demo](./test/demo-pilot02-digitaltwin-rosboard_2.gif)
 
 
 Please note that, due to the large size of ROS bag files containing rich data (such as images, LiDAR point clouds, or video streams), example files with this type of content are not included in the repository. You can use your own ROS2 bag files with these types of data to explore more advanced visualizations.
